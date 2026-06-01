@@ -1,3 +1,4 @@
+ 
 import streamlit as st
 import pandas as pd
  
@@ -47,4 +48,4 @@ if st.button("Calculate"):
  
    # Table View
    st.subheader("Marks Table")
-   st.dataframe(df) 
+   st.dataframe(df)
